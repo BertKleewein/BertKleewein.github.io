@@ -7,7 +7,7 @@ This is a perfect example of what Kent Beck calls ["code smell"](https://en.wiki
 The code is not technically incorrect, but the pattern indicates that there might be a deeper underlying problem.
 I like the term because saying "The code looks fine, but I just don't like the way this part _smells_." is a perfect analogue to the way I feel sometimes.
 
-This happened to be in node.js (actually typescript), but I've, uh, seen people (<cough>, <cough>, not me) run into this in C, C#, and Python.
+This happened to be in node.js (actually typescript), but I've, uh, seen people (\<cough\>, \<cough\>, not me) run into this in C, C#, and Python.
 
 # This code is offensive.  Smelling.  I mean, it smells bad.
 
@@ -56,18 +56,19 @@ Let's talk about them one at a time.
 Before I go any further, I need get specific on terminology.
 I'm calling this anonymous function a "callback".
 This might not be exactly the same way you use the word "callback."
+
 Now, I'm not talking about anyone in particular, but if you're pedantic you might say:
->> A callback is a function that gets called when an operation is completed.
->> It gets called once and then never again.
->> This thing that you have here can get called multiple times.
->> It's not a callback, it's an event handler.
+  A callback is a function that gets called when an operation is completed.
+  It gets called once and then never again.
+  This thing that you have here can get called multiple times.
+  It's not a callback, it's an event handler.
 
 And, in response, I would say:
->> You are correct, sir.
->> It can be called multiple times.
->> I understand the distinction, and it's an important one.
->> I'm still going to call it a callback.
->> (In this article at least)
+  You are correct, sir.
+  It can be called multiple times.
+  I understand the distinction, and it's an important one.
+  I'm still going to call it a callback.
+  (In this article at least)
 
 
 ## The first big problem: It's not your context, dude

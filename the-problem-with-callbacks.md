@@ -58,17 +58,18 @@ I'm calling this anonymous function a "callback".
 This might not be exactly the same way you use the word "callback."
 
 Now, I'm not talking about anyone in particular, but if you're pedantic you might say:
-  A callback is a function that gets called when an operation is completed.
-  It gets called once and then never again.
-  This thing that you have here can get called multiple times.
-  It's not a callback, it's an event handler.
+
+    A callback is a function that gets called when an operation is completed.
+    It gets called once and then never again.
+    This thing that you have here can get called multiple times.
+    It's not a callback, it's an event handler.
 
 And, in response, I would say:
-  You are correct, sir.
-  It can be called multiple times.
-  I understand the distinction, and it's an important one.
-  I'm still going to call it a callback.
-  (In this article at least)
+    You are correct, sir.
+    It can be called multiple times.
+    I understand the distinction, and it's an important one.
+    I'm still going to call it a callback.
+    (In this article at least)
 
 
 ## The first big problem: It's not your context, dude

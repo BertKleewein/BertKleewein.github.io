@@ -11,7 +11,7 @@ This happened to be in node.js (actually typescript), but I've, uh, seen people 
 
 # This code is offensive.  Smelling.  I mean, it smells bad.
 
-(Paraphrased from [The Blues Brothers](https://www.imdb.com/title/tt0080455/)
+(Paraphrased from [The Blues Brothers](https://www.imdb.com/title/tt0080455/))
 
 OK, I'm not going to copy the code exactly, but this is enough to get the point across.
 This is code for an IoT Device that listens on some network resource for messages and responds to those messages.
